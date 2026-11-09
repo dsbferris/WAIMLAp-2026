@@ -1,0 +1,2 @@
+run,model,seed,train_biome,epochs,steps,best_step,val_miou,train_time_s,eval_time_s,total_params,trainable_params,gpu,torch,smoke_test
+dinov3_pft__atlantic__s0,dinov3_pft,0,atlantic,40,1200,1200,0.9330194581698941,123.8,6.6,27694737,13493649,NVIDIA GeForce RTX 4090,2.14.1+cu130,False

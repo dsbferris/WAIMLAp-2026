@@ -1,0 +1,17 @@
+model,train_biome,median_best_check,n_checks,share_late_and_rising,needs_longer_run
+dinov2_ft,amazon,15.0,15,0.0,False
+dinov2_ft,atlantic,15.0,15,0.0,False
+dinov2_pft,amazon,13.0,15,0.0,False
+dinov2_pft,atlantic,15.0,15,0.0,False
+dinov3_ft,amazon,13.0,15,0.0,False
+dinov3_ft,atlantic,15.0,15,0.0,False
+dinov3_pft,amazon,14.0,15,0.0,False
+dinov3_pft,atlantic,15.0,15,0.0,False
+dinov3l_pft,amazon,15.0,15,0.0,False
+dinov3l_pft,atlantic,15.0,15,0.0,False
+dinov3sat_pft,amazon,13.0,15,0.0,False
+dinov3sat_pft,atlantic,15.0,15,0.0,False
+unet_ft,amazon,15.0,15,0.0,False
+unet_ft,atlantic,14.0,15,0.0,False
+unet_pft,amazon,14.0,15,0.0,False
+unet_pft,atlantic,15.0,15,0.0,False

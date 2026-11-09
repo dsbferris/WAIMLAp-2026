@@ -1,0 +1,2 @@
+run,model,seed,train_biome,epochs,steps,best_step,val_miou,train_time_s,eval_time_s,total_params,trainable_params,gpu,torch,smoke_test
+unet_ft__amazon__s1,unet_ft,1,amazon,40,1240,1240,0.9635733881088925,85.7,6.6,24439505,24439505,NVIDIA GeForce RTX 4090,2.14.1+cu130,False

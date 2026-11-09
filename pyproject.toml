@@ -1,0 +1,27 @@
+[project]
+name = "forest-transfer"
+version = "0.1.0"
+description = "Cross-biome transfer of forest segmentation on Sentinel-2: ImageNet U-Net vs. DINOv2 and DINOv3 encoders"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "matplotlib",
+    "rasterio",
+    "pillow",
+    "torch>=2.3",
+    "torchvision",
+    "segmentation-models-pytorch>=0.3.3",
+    "transformers>=4.56",
+    "safetensors",
+    "nbformat",
+    "nbconvert",
+    "ipykernel",
+]
+
+[tool.uv]
+# The repository is a set of notebooks and scripts, not an installable package.
+package = false

@@ -1,0 +1,9 @@
+model,Amazon → Atlantic Forest (all),Atlantic Forest → Amazon (all)
+"U-Net ResNet-34, full",0.814 ± 0.007,0.891 ± 0.011
+"U-Net ResNet-34, partial",0.820 ± 0.003,0.905 ± 0.009
+"DINOv2 ViT-S, full",0.823 ± 0.003,0.899 ± 0.012
+"DINOv2 ViT-S, partial",0.824 ± 0.005,0.909 ± 0.009
+"DINOv3 ViT-S, full",0.818 ± 0.007,0.901 ± 0.010
+"DINOv3 ViT-S, partial",0.814 ± 0.005,0.907 ± 0.012
+"DINOv3 ViT-L web, partial",0.822 ± 0.013,0.899 ± 0.008
+"DINOv3 ViT-L sat, partial",0.806 ± 0.010,0.881 ± 0.018

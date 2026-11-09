@@ -1,0 +1,8 @@
+• Seeds: [0, 1, 2, 3, 4] (5), models: 8.
+• In-biome (Amazon → Amazon) mIoU: 0.958–0.965 across models (spread 0.007).
+• Transfer (Amazon → Atlantic, official test) mIoU: 0.802–0.819 (spread 0.017); best: DINOv3 ViT-L web, partial.
+• Transfer to the whole Atlantic Forest (605 images): best DINOv2 ViT-S, partial (0.824), worst DINOv3 ViT-L sat, partial (0.806).
+• Paired differences with Holm p < 0.05: none.
+• Each model vs. U-Net ResNet-34, full (7 comparisons per test set, Holm): Amazon → Atlantic Forest: largest gain DINOv3 ViT-L web, partial +0.0116, smallest Holm p 0.289; Amazon → Atlantic Forest (all): largest gain DINOv2 ViT-S, partial +0.0105, smallest Holm p 0.313.
+• Spearman ρ, in-biome (Amazon test) vs. Amazon → Atlantic Forest mIoU over the 40 Amazon-trained runs: -0.10 (p = 0.540; runs share seeds and models, so p is approximate).
+• Spearman ρ, in-biome (Amazon test) vs. Amazon → Atlantic Forest (all) mIoU over the 40 Amazon-trained runs: -0.31 (p = 0.052; runs share seeds and models, so p is approximate).

@@ -1,0 +1,9 @@
+,total_M,trained_M,train_min,gpu
+"U-Net ResNet-34, full",24.4,24.4,1.5,NVIDIA GeForce RTX 4090
+"U-Net ResNet-34, partial",24.4,16.3,1.3,NVIDIA GeForce RTX 4090
+"DINOv2 ViT-S, full",27.7,27.7,2.5,NVIDIA GeForce RTX 4090
+"DINOv2 ViT-S, partial",27.7,13.4,2.4,NVIDIA GeForce RTX 4090
+"DINOv3 ViT-S, full",27.7,27.7,2.3,NVIDIA GeForce RTX 4090
+"DINOv3 ViT-S, partial",27.7,13.5,2.2,NVIDIA GeForce RTX 4090
+"DINOv3 ViT-L web, partial",314.0,112.4,9.1,NVIDIA GeForce RTX 4090
+"DINOv3 ViT-L sat, partial",314.0,112.4,9.0,NVIDIA GeForce RTX 4090

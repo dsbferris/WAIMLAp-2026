@@ -1,0 +1,16 @@
+# Same dependencies as pyproject.toml, for pip users: pip install -r requirements.txt
+# On a GPU machine, install the PyTorch build for your CUDA version first (https://pytorch.org/get-started/locally/).
+numpy
+pandas
+scipy
+matplotlib
+rasterio
+pillow
+torch>=2.3
+torchvision
+segmentation-models-pytorch>=0.3.3
+transformers>=4.56
+safetensors
+nbformat
+nbconvert
+ipykernel

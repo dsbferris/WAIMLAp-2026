@@ -1,0 +1,14 @@
+metric,w_iou,w_iou,w_iou,w_iou,img_f1,img_f1,img_f1,img_f1
+direction,Amazon → Amazon,Atlantic Forest → Atlantic Forest,Amazon → Atlantic Forest,Atlantic Forest → Amazon,Amazon → Amazon,Atlantic Forest → Atlantic Forest,Amazon → Atlantic Forest,Atlantic Forest → Amazon
+source,,,,,,,,
+"John & Zhang 2022, U-Net",0.9473,0.8883,0.8134,0.8254,,,,
+"John & Zhang 2022, Attention U-Net",0.9516,0.9199,0.8143,0.8722,,,,
+"Benvenuto et al. 2025, U-Net (RGB)",,,,,0.9588,0.9524,,
+"ours, U-Net ResNet-34, full",0.9637,0.9359,0.8296,0.9182,0.9658,0.9299,0.8136,0.9438
+"ours, U-Net ResNet-34, partial",0.9619,0.9385,0.8358,0.924,0.9268,0.9326,0.8355,0.9513
+"ours, DINOv2 ViT-S, full",0.9596,0.9343,0.8374,0.9325,0.9736,0.9285,0.8382,0.9548
+"ours, DINOv2 ViT-S, partial",0.958,0.9333,0.8385,0.9377,0.9632,0.9279,0.8336,0.9614
+"ours, DINOv3 ViT-S, full",0.9641,0.94,0.8365,0.9288,0.9759,0.9334,0.8351,0.9553
+"ours, DINOv3 ViT-S, partial",0.9625,0.9389,0.8316,0.934,0.975,0.9321,0.8327,0.9578
+"ours, DINOv3 ViT-L web, partial",0.9649,0.941,0.8398,0.9229,0.9761,0.9352,0.8358,0.945
+"ours, DINOv3 ViT-L sat, partial",0.9649,0.9418,0.8234,0.9208,0.9665,0.9355,0.8256,0.9446

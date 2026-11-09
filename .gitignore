@@ -1,0 +1,12 @@
+# data (downloaded and extracted by notebooks/01_data.ipynb or scripts/pod_setup.sh)
+data/
+# smoke-test output of 02_train.ipynb (SMOKE_TEST=1)
+results_smoke/
+# model checkpoints (large; kept outside git)
+results/raw/ckpt/
+# Python and Jupyter
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+# macOS
+.DS_Store
